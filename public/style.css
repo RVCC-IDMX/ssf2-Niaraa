@@ -2,17 +2,31 @@
 body {
   background-color: rgb(255, 189, 213);
   box-sizing: border-box;
+  max-width: 100%;
+  display: initial;
+  text-align: center;
+  color: rgb(93, 8, 108);
+  padding-left: 10px;
 }
 body :focus {
   outline: none;
+}
+
+svg {
+  background-color: rgba(243, 161, 224, 0.956);
+  height: 1em;
 }
 
 h1 {
   margin-left: auto;
   font-size: 4em;
   font-family: "Times New Roman", Times, serif;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
+  width: 5px;
+}
+h1 :focus {
+  outline: none;
 }
 h1 :hover {
   transform: translate;
@@ -23,8 +37,9 @@ h2 {
   margin-left: auto;
   font-size: 5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 25px;
+  margin: 5px;
   padding: 15px;
+  width: 20rem;
 }
 h2 :hover {
   transform: translate;
@@ -32,10 +47,11 @@ h2 :hover {
 }
 
 h3 {
-  font-size: 10em;
+  font-size: 50px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  margin: 28px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
+  width: 20rem;
 }
 h3 :hover {
   transform: translate;
@@ -43,10 +59,11 @@ h3 :hover {
 }
 
 p {
-  font-size: 60px;
+  font-size: 70px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin: 25px;
-  padding: 15px;
+  margin: 1px;
+  padding: 5px;
+  text-align: center;
 }
 p :hover {
   transform: translate;
@@ -56,8 +73,9 @@ p :hover {
 ul {
   font-size: 60px;
   font-family: sans-serif;
-  margin: 20px;
+  margin: 5px;
   padding: 15px;
+  width: 20rem;
 }
 ul :hover {
   transform: translate;
@@ -69,6 +87,7 @@ li {
   font-family: poppins;
   margin: 15px;
   padding: 15px;
+  width: 20rem;
 }
 li :hover {
   transform: translate;
@@ -76,10 +95,11 @@ li :hover {
 }
 
 a {
-  font-size: 70px;
+  font-size: 40px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin: 10px;
   padding: 15px;
+  width: 20rem;
 }
 a :hover {
   transform: translate;
@@ -100,4 +120,9 @@ footer :hover {
 h4 {
   font-size: 5em;
   font-family: Arial, Helvetica, sans-serif;
+  width: 20rem;
+}
+h4 :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
 }
