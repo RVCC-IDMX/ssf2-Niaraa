@@ -1,1 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background-color: rgb(255, 189, 213);
+  box-sizing: border-box;
+}
+body :focus {
+  outline: none;
+}
+
+h1 {
+  margin-left: auto;
+  font-size: 4em;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 10px;
+}
+h1 :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+h2 {
+  margin-left: auto;
+  font-size: 5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 25px;
+  padding: 15px;
+}
+h2 :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+h3 {
+  font-size: 10em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 28px;
+  padding: 20px;
+}
+h3 :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+p {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 25px;
+  padding: 15px;
+}
+p :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+ul {
+  font-size: 60px;
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 15px;
+}
+ul :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+li {
+  font-size: 50px;
+  font-family: poppins;
+  margin: 15px;
+  padding: 15px;
+}
+li :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+a {
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 10px;
+  padding: 15px;
+}
+a :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+footer {
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 10px;
+  padding: 15px;
+}
+footer :hover {
+  transform: translate;
+  box-shadow: 10px 10px 20px;
+}
+
+h4 {
+  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
